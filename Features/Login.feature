@@ -9,14 +9,10 @@ Feature: Login functionality of Gmail
     Then Page Title should contain <username>
 
     Examples: 
-      | browser | username              | password    |
-      | safari  | anish.test.automation | Qwerty!2345 |
-
-
-
-
-
-
+      | browser | username           | password     |
+      | safari  | username@gmail.com | password@123 |
+      
+      
 #Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
