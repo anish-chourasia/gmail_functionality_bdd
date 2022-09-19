@@ -21,9 +21,9 @@ Feature: Functionality check for Sending Email in Gmail
       | Incubyte |
       
       
-  Scenario: Test Deleting of recently sent email
-    Given User is on recently sent email
-    Then User deletes the open email
+  #Scenario: Test Deleting of recently sent email
+    #Given User is on recently sent email
+    #Then User deletes the open email
     
   Scenario: User logs out from Gmail
     Given User is on recently sent email
